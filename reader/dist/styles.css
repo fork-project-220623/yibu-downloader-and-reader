@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin-left: 1em;
+}
+
+ul>li {
+    margin-left: 1em;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.book-category {
+    cursor: pointer;
+}
+
+.overscroll {
+    overflow: scroll;
+}
+
+ul li.selected>div {
+    color: yellow;
+}
+
+.books-list ol {
+    margin-left: 2em;
+}
+
+.functions {
+    position: fixed;
+    z-index: 3;
+    left: 10px;
+    bottom: 10px;
+}
+
+.functions ul {
+    margin: 0;
+    list-style: none;
+}
+
+.functions ul li {
+    margin: 10px 5px;
+    float: left;
+}
+
+ol.breadcrumb {
+    width: 100%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .8em;
+}
+
+.table-of-contencts {
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(0, 150, 255, .9);
+    color: white;
+    padding: 10px 5px;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 5px;
+    box-shadow: #eee 5px 5px 5px;
+}
+
+.chapter-content {
+    overflow: hidden;
+    padding: 5px;
+    padding-bottom: 60px;
+}
+.chapter-content.center{
+    margin: 0 auto;
+}
+.chapter-content.left{
+
+ }
+.chapter-content.right{ 
+    position: absolute;
+    right: 0;
+}
+
+.chapter-content code {
+    white-space: pre;
+    overflow: scroll;
+}
+
+table {
+    margin: 0 auto;
+}
+
+/* 图片相关样式 */
+img.center {
+    max-width: 90%;
+    display: block;
+    margin: 10px auto;
+}
