@@ -2,7 +2,7 @@
 
 此项目代码仅供个人学习参考, 严禁用于违法传播图书。
 
-~~复刻自 [alanwei43/epubit-ebook-download](https://github.com/alanwei43/epubit-ebook-download)~~.（已404）
+~~复刻自 [alanwei43/epubit-ebook-download](https://github.com/alanwei43/epubit-ebook-download)~~。（已404）
 
 ## 下载方法
 
